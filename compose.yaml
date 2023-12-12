@@ -43,8 +43,8 @@ services:
       - 8080:80
 
 networks:
-  metabase:
-    name: metabase
+  postgres:
+    name: postgres
 
 volumes:
   postgres:
