@@ -1,0 +1,10 @@
+*
+!/.devcontainer/
+!/.devcontainer/devcontainer.json
+!/.vscode/
+!/.vscode/extensions.json
+!/.vscode/settings.json
+!/.gitignore
+!/compose.yaml
+!/Dockerfile
+!/README.md

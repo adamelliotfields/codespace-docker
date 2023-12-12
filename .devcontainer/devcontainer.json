@@ -1,0 +1,22 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2-focal",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "dockerDashComposeVersion": "v2",
+      "moby": false
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "formulahendry.docker-explorer",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  },
+  "forwardPorts": [
+    3000,
+    5432,
+    8080
+  ]
+}
